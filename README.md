@@ -241,7 +241,7 @@ console.log(object == '1');
 
 <details>
   <summary>Решение</summary>
-  Нужно добавить решение которое работает здесь и не работает в 15ом задании
+  <code>Object.defineProperty(b, 'toString', {value: () => '1'})</code>
 </details>
 
 ## 15
