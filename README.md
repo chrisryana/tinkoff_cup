@@ -241,7 +241,7 @@ console.log(object == '1');
 
 <details>
   <summary>Решение</summary>
-  <code>Object.defineProperty(b, 'toString', {value: () => '1'})</code>
+  <code>Object.defineProperty(object, 'toString', {value: () => '1'})</code>
 </details>
 
 ## 15
