@@ -163,7 +163,7 @@
 
 Дана функция которая получает результаты трёх лучших игроков:
 
-```
+```javascript
 function getTop3(score) {
   return score.sort().reverse().slice(0, 3);
 }
@@ -189,7 +189,7 @@ getTop3([1, 10, 5, 1, 12, 8])
 
 Дана функция:
 
-```
+```javascript
 function replaceCurrencyNameWithSymbol(str, currencyName, currencySymbol) {
   return str.replace(currencyName, currencySymbol);
 }
@@ -263,7 +263,7 @@ console.log(object == '1');
 
 Реализуйте тип – неотрицательное число для работы в функции квадратного корня.
 
-```
+```javascript
 function sqrt<N extends number>(n: NonNegativeNumber<N>): number {
   return Math.sqrt(n);
 }
@@ -280,7 +280,7 @@ function sqrt<N extends number>(n: NonNegativeNumber<N>): number {
 
 Например, тип должен позволять такое:
 
-```
+```javascript
 const myRecursiveArray = ['test', [], ['test2']];
 ```
 
@@ -453,7 +453,7 @@ function getParticipants(arr, track, size, page) {
 
 Вам надо загрузить огромный файл на сервер. Напишите функцию, которая сделает это чанками в несколько потоков. Не меняйте интерфейсы, которые даны в задании.
 
-```
+```javascript
 type Options = {
   maxChunks: number;
   chunkSize: number;
@@ -497,7 +497,7 @@ export async function upload(file: Source, send: SendCb, options: Options): Prom
 
 Пример использования:
 
-```
+```javascript
 class SomeService {
   @Logger
   requestSomeData(id: number, provider: string): SomeData {
