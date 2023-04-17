@@ -1,24 +1,41 @@
-# IT's Tinkoff Cup 2023 Frontend 2023
+![image](https://user-images.githubusercontent.com/40830361/232586736-fce05b28-e7d0-417f-b88c-f503841e5a16.png)
 
-## 1
+# IT's Tinkoff Cup 2023 Frontend
+
+https://www.tinkoff.ru/solutioncup/frontend/
+
+_Было какое-то помутнение рассудка и я почему то не заскринила условия задач 5-12. Поэтому вспоминала их по памяти и там могут быть ошибки в описании, в вариантах ответов или может не совпадать порядок вариантов. Задания, в которых предлагаются варианты ответов, нельзя прогнать через тесты. Результаты тестов неизвестны._
+
+[[1]](#1) [[2]](#2) [[3]](#3) [[4]](#4) [[5]](#5) [[6]](#6) [[🤷‍♀️7]](#7)
+
+[[10]](#10) [[11]](#11) [[12]](#12) [[13]](#13) [[14]](#14) [[15]](#15)
+
+[[16]](#16) [[17]](#17) [[18]](#18) [[19]](#19) [[20]](#20) [[21]](#21)
+
+[[22]](#22) [[23]](#23) [[24]](#24) [[25]](#25)
+
+
+
+<a name="1"><h3>1 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
+
 Дано SVG-изображение размером 500 х 200. Требуется, чтобы в приложении отображалось изображение размером 60 х 25. Выберите правильный набор параметров SVG для масштабирования.
 
-1. width="60" height="25" viewBox="0 0 500 200"
-2. width="60" height="25" viewBox="500 0 200 0"
-3. width="60" height="25" viewBox="500 200"
-4. width="500" height="200" viewBox="60 25 0 0"
-5. width="500" height="200" viewBox="60 0 25 0"
-6. width="500" height="200" viewBox="60 25"
+1. **`width="60" height="25" viewBox="0 0 500 200"`** ✅
+2. `width="60" height="25" viewBox="500 0 200 0"`
+3. `width="60" height="25" viewBox="500 200"`
+4. `width="500" height="200" viewBox="60 25 0 0"`
+5. `width="500" height="200" viewBox="60 0 25 0"`
+6. `width="500" height="200" viewBox="60 25"`
 
-## 2
+<a name="2"><h3>2 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 У элемента заданы width и height, но если принять padding, то ширина и высота увеличиваются. Какое свойство помогает избежать этого?
 
-1. box-sizing: content-box;
-2. box-sizing: border-box;
-3. box-sizing: initial;
+1. `box-sizing: content-box;`
+2. **`box-sizing: border-box;`** ✅
+3. `box-sizing: initial;`
 
-## 3
+<a name="3"><h3>3 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Даны стили и верстка:
 
@@ -53,13 +70,13 @@
 
 Какой из этих вариантов будет отличаться внешне от других?
 
-1. Добавить .z2 { position: static }, .z1 { position: static }
-2. Добавить .z2 { position: relative }, .z1 { position: static }
-3. Добавить .z2 { position: relative }, .z1 { position: relative }
-4. Добавить .z2 { position: absolute }, .z1 { position: relative }
+1. **`.z2 { position: static } .z1 { position: static }`** ✅
+2. `.z2 { position: relative } .z1 { position: static }`
+3. `.z2 { position: relative } .z1 { position: relative }`
+4. `.z2 { position: absolute } .z1 { position: relative }`
 
 
-## 4
+<a name="4"><h3>4 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Дана верстка:
 
@@ -96,7 +113,6 @@
 
 Какие из наборов стилей дают такое расположение?
 
-
 ![flex](https://user-images.githubusercontent.com/40830361/232333102-2fd480a4-72b8-4680-87f5-3de45dd9b472.png)
 
 1.
@@ -123,7 +139,7 @@
     }
     ```
   
-3.
+3. ✅
     ```css
     .div3 {
       margin-bottom: 7em;
@@ -158,7 +174,7 @@
     .div5 { grid-area: 5; }
     ```
     
-## 5
+<a name="5"><h3>5 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Какие из вариантов ответов предотвратят перезагрузку страницы?
 
@@ -192,9 +208,42 @@
   </form>
   ```
 
+<a name="6"><h3>6 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
+
+Дан фрагмент кода:
+
+```javascript
+<script async src="script1.js"></script>
+<script defer src="script2.js"></script>
+```
+
+script1 выполняется позже script2. Какой вариант кода позволит загрузить скрипты в правильном порядке?
+
+1.
+    ```javascript
+      <script async src="script1.js"></script>
+      <script async src="script2.js"></script>
+    ```
+  
+2.
+    ```javascript
+      <script defer src="script1.js"></script>
+      <script async src="script2.js"></script>
+    ```
+  
+3. ✅
+    ```javascript
+      <script defer src="script1.js"></script>
+      <script defer src="script2.js"></script>
+    ```
+
+<a name="7"><h3>7 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
+
+Что то с вариантами порядка рендера страницы
+
 ----
 
-## 10
+<a name="10"><h3>10 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
 Дана функция которая получает результаты трёх лучших игроков:
 
@@ -208,19 +257,17 @@ getTop3([1, 10, 5, 1, 12, 8])
 
 Найдите ошибку и исправьте её.
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    function getTop3(score) {
-      return score.sort(function(a, b) {
-        return b - a;
-      }).slice(0, 3);
-    }
-  </code>
-</details>
+```javascript
+function getTop3(score) {
+  return score.sort(function(a, b) {
+   return b - a;
+  }).slice(0, 3);
+}
+```
 
-## 11
+<a name="11"><h3>11 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
 Дана функция:
 
@@ -234,19 +281,37 @@ replaceCurrencyNameWithSymbol('Приход: 10 руб., сумма: 100 руб.
 
 Поймите что делает этот код и исправьте ошибку.
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    function replaceCurrencyNameWithSymbol(str, currencyName, currencySymbol) {
-      return str.replaceAll(currencyName, currencySymbol);
-    }
-  </code>
-</details>
+```javascript
+function replaceCurrencyNameWithSymbol(str, currencyName, currencySymbol) {
+  return str.replaceAll(currencyName, currencySymbol);
+}
+```
 
-----
+<a name="12"><h3>12 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
+
+Дан фрагмент кода:
+
+```javascript
+arr.map(getNumber).filter(isNotNull)
+
+function getNumber(item: string): number | null {
+  return +item || null
+}
+```
+
+Напишите типизированную функцию isNotNull.
+
+**Решение:**
+
+```javascript
+function isNotNull(item: number | null) item is number {
+  return typeof item === 'number';
+}
+```
    
-## 13
+<a name="13"><h3>13 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
    
 Выберите, какие действия с объектом приведут к такому выводу в консоль:
    
@@ -264,7 +329,7 @@ console.log({...object}); // -> {surname: Mercury}
       
 - [ ] `object = {surname: 'Mercury'}`
    
-## 14
+<a name="14"><h3>14 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Допишите код так, чтобы в консоль выводилось true:
 
@@ -274,12 +339,13 @@ const object = {};
 console.log(object == '1');
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>Object.defineProperty(object, 'toString', {value: () => '1'})</code>
-</details>
+**Решение:**
 
-## 15
+```javascript
+Object.defineProperty(object, 'toString', {value: () => '1'})
+```
+
+<a name="15"><h3>15 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Допишите код так, чтобы в консоль выводилось true:
 
@@ -289,12 +355,13 @@ const object = Object.freeze({});
 console.log(object == '1');
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>a.__proto__.toString = () => '1'</code>
-</details>
+**Решение:**
 
-## 16
+```javascript
+a.__proto__.toString = () => '1'
+```
+
+<a name="16"><h3>16 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
 Реализуйте тип – неотрицательное число для работы в функции квадратного корня.
 
@@ -304,12 +371,13 @@ function sqrt<N extends number>(n: NonNegativeNumber<N>): number {
 }
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>type NonNegativeNumber<N extends number> = number extends N ? N : `${N}` extends '-${string}' ? never : N;</code>
-</details>
+**Решение:**
 
-## 17
+```javascript
+type NonNegativeNumber<N extends number> = number extends N ? N : `${N}` extends '-${string}' ? never : N;
+```
+
+<a name="17"><h3>17 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
 Напишите тип для массива, элементами которого могут быть строка или такой же массив (элементами которого могут быть строка или такой же массив и т.д.)
 
@@ -319,16 +387,14 @@ function sqrt<N extends number>(n: NonNegativeNumber<N>): number {
 const myRecursiveArray = ['test', [], ['test2']];
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    type ValueOrArray<T> = T | ValueOrArray<T>[];
-    type RecursiveArray = ValueOrArray<string>;
-  </code>
-</details>
+```javascript
+type ValueOrArray<T> = T | ValueOrArray<T>[];
+type RecursiveArray = ValueOrArray<string>;
+```
 
-## 18
+<a name="18"><h3>18 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 Перед вами реализация данных – множества, в которой элементы можно добавлять только один раз.
 После удаления элемент нельзя добавить снова.
@@ -350,7 +416,7 @@ class OnceSet extends Set {
 }
 ```
 
-## 19
+<a name="19"><h3>19 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange)</h3></a>
 
 Напишите функцию requestWithRetry, которая принимает функцию запроса и количество раз, которое этот запрос нужно повторять до успешного результата.
 
@@ -362,42 +428,66 @@ Retry должен вернуть промис с результатом или 
 const results = await requestWithRetry(someFunction, 5);
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    /**
-     * @param request () => Promise<T> функция запроса
-     * @param attempts number сколько раз пытаемся сделать запрос
-     * @return Promise<T> с результатом или реджектом
-     */
-    async function requestWithRetry(request, attempts = 1) {
-      // реализуйте эту функцию
+```javascript
+/**
+ * @param request () => Promise<T> функция запроса
+ * @param attempts number сколько раз пытаемся сделать запрос
+ * @return Promise<T> с результатом или реджектом
+ */
+async function requestWithRetry(request, attempts = 1) {
+  const requestCount = 1;
+
+  return new Promise(function(resolve, reject) { 
+    while (requestCount <= attempts) {
+      try {
+        const result = request()
+	resolve(result);
+      } catch(err) {
+	if (requestCount < attempts) {
+	  requestCount++;
+	} else {
+	  reject(err);
+	  break;
+	}
+      }
     }
-  </code>
-</details>
+  })
+}
+```
 
-## 20
+<a name="20"><h3>20 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B0%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%BE-yellow)</h3></a>
 
 Напишите функцию, которая принимает функцию запроса и максимальное время его ожидания. Возвращает промис с результатом запроса или реджектом в случае, если ответ не получен за назначенное время.
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    /**
-     * @param request () => Promise<T>
-     * @param timeout number время ожидания
-     * @return Promise<T> с результатом или реджектом
-     */
-    async function requestWithTimeout(request, timeout) {
-      // реализуйте эту функцию
+```javascript
+/**
+ * @param request () => Promise<T>
+ * @param timeout number время ожидания
+ * @return Promise<T> с результатом или реджектом
+ */
+async function requestWithTimeout(request, timeout) {
+  return new Promise(function(resolve, reject) {
+    const timer = setTimeout(() => {
+      reject()
+    }, timeout);
+
+    try {
+      const result = request()
+      resolve(result);
+      clearTimeout(timer);
+    } catch(err) {
+      reject(err)
     }
-  </code>
-</details>
+  })
+}
+```
 
 
-## 21
+<a name="21"><h3>21 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 Реализуйте функцию excludePaths, принимающую объект и список путей, которые надо исключить и возвращающую новый объект без этих путей. Например:
 
@@ -416,17 +506,15 @@ const newObj = excludePaths(alice, ['age', 'track.score']);
 console.log(newObj); // -> { name: 'Alice', 'track': {title: 'Frontend'} }
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    function excludePaths(obj, paths) {
-      // реализуйте эту функцию
-    }
-  </code>
-</details>
+```javascript
+function excludePaths(obj, paths) {
+  // реализуйте эту функцию
+}
+```
 
-## 22
+<a name="22"><h3>22 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 От коллег вам достался код, возвращающий N-ю страницу рейтинга участников.
 
@@ -467,24 +555,21 @@ function getParticipants(arr, track, size, page) {
 }
 ```
 
-## 23
+<a name="23"><h3>23 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 Напишите типизированную функцию getMax, которая принимает на вход массив элементов и функцию сравнения, а возвращает самый большой элемент массива согласно функции сравнения.
 
 Если на вход передан пустой массив, то функция должна возвращать undefined.
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    function getMax(arr, comparator) {
-      // реализуйте эту функцию и добавьте типизацию
-    }
-  </code>
-</details>
+```javascript
+function getMax(arr, comparator) {
+  // реализуйте эту функцию и добавьте типизацию
+}
+```
 
-
-## 24
+<a name="24"><h3>24 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 Вам надо загрузить огромный файл на сервер. Напишите функцию, которая сделает это чанками в несколько потоков. Не меняйте интерфейсы, которые даны в задании.
 
@@ -505,28 +590,27 @@ export async function upload(file: Source, send: SendCb, options: Options): Prom
 }
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    type Options = {
-      maxChunks: number;
-      chunkSize: number;
-    }
+```javascript
+type Options = {
+  maxChunks: number;
+  chunkSize: number;
+}
 
-    interface Source {
-      readonly size: number;
-      read(start: number, end: number): Blob;
-    }
+interface Source {
+  readonly size: number;
+  read(start: number, end: number): Blob;
+}
 
-    type SendCb = (data: Blob, offset: number) => Promise<void>;
+type SendCb = (data: Blob, offset: number) => Promise<void>;
 
-    export async function upload(file: Source, send: SendCb, options: Options): Promise<unknown> {
-    }
-  </code>
-</details>
+export async function upload(file: Source, send: SendCb, options: Options): Promise<unknown> {
+  ...
+}
+```
 
-## 25
+<a name="25"><h3>25 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
 Напишите декоратор, который логирует переданные в метод аргументы, вернувшееся значение и время исполнения функции в заданном формате.
 
@@ -553,12 +637,11 @@ SomeService.requestSomeData: 0.033ms
   result: {"name": "Alice"}
 ```
 
-<details>
-  <summary>Решение</summary>
-  <code>
+**Решение:**
 
-    // TODO: реализуйте декоратор
-    function Logger() {
-    }
-  </code>
-</details>
+```javascript
+// TODO: реализуйте декоратор
+function Logger() {
+  ...
+}
+```
