@@ -157,6 +157,41 @@
      
     .div5 { grid-area: 5; }
     ```
+    
+## 5
+
+Какие из вариантов ответов предотвратят перезагрузку страницы?
+
+- [x]
+  ```html
+  <form onsubmit="return false;" method="post">
+    <input type="text" />
+    <button type="submit">Отправить</button>
+  </form>
+  ```
+- [x]
+  ```javascript
+  form.addEventListener('submit', (e) => {
+	  e.preventDefault();
+	})
+
+  <form method="post">
+    <input type="text" />
+    <button type="submit">Отправить</button>
+  </form>
+  ```
+- [ ]
+  ```javascript
+  form.addEventListener('submit', (e) => {
+	  e.stopReload()
+	})
+  
+  <form method="post">
+    <input type="text" />
+    <button type="submit">Отправить</button>
+  </form>
+  ```
+
 ----
 
 ## 10
